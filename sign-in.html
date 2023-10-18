@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In</title>
+    <link rel="stylesheet" type="text/html" href="./sign-in.css">
+    <script src="https://kit.fontawesome.com/f576b24706.js" crossorigin="anonymous"></script>
+    <style>
+        html{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;
+    padding: 60px;
+}
+body{
+    background-color: #fff;
+    text-align: left;
+    padding-left: 15px;
+
+}
+.logoimg{
+    width: 25px;
+    height: 25px;
+    position: static;
+    
+  
+}
+.heading{
+    margin-top: -40px;
+}
+.sign-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+form{
+    /* background-color: aliceblue; */
+    padding: 15px;
+    border-radius: 8px;
+    /* box-shadow: 2px 2px 15px; */
+}
+.fpassword{
+    float: right;
+}
+.email{
+    margin-bottom: 20px;
+    width:365px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: rgba(128, 128, 128, 0.178);
+    border: none;
+}
+.password{
+    margin-bottom: 20px;
+    width:365px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: rgba(128, 128, 128, 0.178);
+    border: none;
+}
+.keepmelogin{
+    font-size: 1px;
+}
+.btn{
+    width:365px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: rgba(100, 7, 248, 0.973);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+.googlebutton{
+    width:365px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #fff;    
+    color: #2c0505;
+    font-size: 16px;
+
+    .google{
+        width:25px;
+        
+    }
+}
+.facebookbutton{
+    width:365px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: rgba(88, 45, 158, 0.904);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+    </style>
+</head>
+<body>
+    
+    <section class="sign-in">
+        <form action="#">
+            <h2 style="text-align: center;">Sign in</h2>     
+        Email address<br>
+        <input type="text" class="email" id="email" name="email"><br>
+        Password<br>
+        <input type="password" class="password" id="password" name="password"> <i class="fa fa-eye" aria-hidden="true"></i><br>
+        <input type="checkbox" class="keepmelogin" id="Keepmelogin" name="keepmelogin">keep me signed in &nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="fpassword" href="">Forgot password?</a><br><br>
+        <button class="btn" type="submit">continue with email</button>
+        <p>---------------or use one of these options--------------</p>
+        <button class="googlebutton" type="submit"><img class="google" src="./images/icons8-google-48.png">  continue with Google</button><br><br>
+        <button class="facebookbutton" type="submit"><i class="fa fa-facebook-square" aria-hidden="true"></i>  continue with Facebook</button><br><br><br><br>
+        <h2>Don't have an account? <a href="">Register</a></h2>
+        </form>
+        <div>
+            
+        </div>
+    </section>
+    </div>
+</body>
+</html>
